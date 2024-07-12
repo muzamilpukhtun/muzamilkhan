@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from 'framer-motion';
 
 const Form = () => {
     const formRef = useRef();
@@ -52,6 +53,11 @@ const Form = () => {
 
     return (
         <div className="border-b border-neutral-300 pb-4">
+        <motion.h1
+        whileInView={{opacity:1,y:0}}
+        initial={{opacity:0,y:-100}}
+        transition={{duration:0.5}}
+        className='my-20 text-center text-4xl'>Contact</motion.h1>
             <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8 p-8">
                 <label className="flex flex-col">
                     <span className="text-white font-medium mb-4">Your name</span>
