@@ -57,6 +57,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Rawalpindi, Pakistan",
-  phoneNo: "+92 312-5122251",
-  email: "muzamilpukhtun@gmail.com",
+  phoneNo: "+92 330-9580915",
+  email: "denzowebservice@gmail.com",
 };
