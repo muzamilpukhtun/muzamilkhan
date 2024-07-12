@@ -67,7 +67,7 @@ const Form = () => {
                         value={form.name}
                         onChange={handleChange}
                         placeholder="What's your good name?"
-                        className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                        className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
                     ></input>
                 </label>
                 <label className="flex flex-col">
@@ -78,7 +78,7 @@ const Form = () => {
                         value={form.email}
                         onChange={handleChange}
                         placeholder="What's your email?"
-                        className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                        className="bg-tertiary py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium"
                     ></input>
                 </label>
                 <label className="flex flex-col">
