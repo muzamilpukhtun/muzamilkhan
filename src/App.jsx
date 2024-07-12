@@ -5,6 +5,7 @@ import Form from "./components/Form";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
+import Services from "./components/Services";
 import Technologies from "./components/Technologies";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Hero/>
         <About/>
         <Technologies/>
+        <Services/>
         <Experience/>
         <Project/>
         <Form/>

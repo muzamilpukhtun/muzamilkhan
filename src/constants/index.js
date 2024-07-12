@@ -60,3 +60,9 @@ export const CONTACT = {
   phoneNo: "+92 330-9580915",
   email: "denzowebservice@gmail.com",
 };
+export const SERVICE=[
+ { name:"WEBSITE DEVELOPMENT"},
+ { name:"E-COMMERCE STORES"},
+ { name:"CMS DEVELOPMENT"},
+ { name:"PORTFOLIO WEBSITE"},
+]
